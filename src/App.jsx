@@ -211,7 +211,7 @@ export default function App() {
         <p className="hero-eyebrow">Tourism Capital of Nepal · Officially declared 2024</p>
         <h1>Where the <em>Himalayas</em> meet the lakes</h1>
         <p className="hero-desc">
-          Pokhara sits at 827 metres in the Gandaki Province of western Nepal, cradled between the world's highest mountains and the shimmering waters of Phewa Lake. It is Nepal's second-largest city and its adventure capital — the starting point for legendary Himalayan treks, a base for paragliding over clouds, and a place where evenings slow down to the rhythm of oars on still water.
+          rishi Pokhara sits at 827 metres in the Gandaki Province of western Nepal, cradled between the world's highest mountains and the shimmering waters of Phewa Lake. It is Nepal's second-largest city and its adventure capital — the starting point for legendary Himalayan treks, a base for paragliding over clouds, and a place where evenings slow down to the rhythm of oars on still water.
         </p>
         <div className="hero-stats">
           <div className="stat-item"><strong>827m</strong><span>City Elevation</span></div>
@@ -299,9 +299,9 @@ export default function App() {
 
       {/* BEST TIME */}
       <section id="besttime">
-        <p className="section-label">When to Visit</p>
-        <h2 className="section-title">Four seasons, four experiences</h2>
-        <p className="section-intro">Pokhara is a year-round destination, but the quality of your experience varies significantly by season. Mountain visibility and trail conditions are the primary factors.</p>
+        <p className="section-label">ram</p>
+        <h2 className="section-title">Four seasons, three experiences</h2>
+        <p className="section-intro">kathmandu is a year-round destination, but the quality of your experience varies significantly by season. Mountain visibility and trail conditions are the primary factors.</p>
         <div className="seasons-grid">
           {seasons.map((s) => (
             <div className={`season-card${s.recommended ? ' recommended' : ''}`} key={s.name}>
@@ -316,8 +316,8 @@ export default function App() {
 
       {/* PRACTICAL */}
       <section id="practical">
-        <p className="section-label">Travel Information</p>
-        <h2 className="section-title">Planning your visit</h2>
+        <p className="section-label">Travel info</p>
+        <h2 className="section-title">ram</h2>
         <p className="section-intro">Everything you need to know before you arrive — transport, accommodation, permits, money, and health.</p>
         <div className="practical-grid">
           {practical.map((block) => (
@@ -334,7 +334,7 @@ export default function App() {
       </section>
 
       <footer>
-        <span className="footer-brand">Pokhara — Tourism Capital of Nepal</span>
+        <span className="footer-brand">birgunj — Tourism Capital of Nepal</span>
         <p>Information accurate as of 2025 · Always verify local conditions before travel</p>
       </footer>
     </>
